@@ -1,32 +1,37 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
 <style>
-  body{ background:#2A6B6E; color:#fff; }
-  .canvas{ padding:0; }
-  .corner{ position:absolute; bottom:-160px; left:-160px; width:520px; height:520px; border-radius:50%; background:#255f61; opacity:0.6; }
-  .corner2{ position:absolute; top:-140px; right:-140px; width:420px; height:420px; border-radius:50%; background:#357477; opacity:0.5; }
-  .content{ position:absolute; z-index:2; left:130px; right:130px; top:50%; transform:translateY(-42%); }
-  .kicker{ font-size:16px; letter-spacing:0.24em; text-transform:uppercase; color:#BFE3E0; font-weight:700; margin-bottom:20px; }
-  h1.headline{ font-size:58px; margin:0 0 64px; color:#fff !important; }
-  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:34px 60px; }
-  .item{ display:flex; align-items:flex-start; font-size:23px; line-height:1.4; }
-  .item .mark{ color:#BFE3E0; font-weight:800; margin-right:16px; font-size:24px; }
-  .brandmark{ color:#fff; opacity:0.85; }
+  .panel{
+    position:absolute; left:70px; top:300px; width:850px; height:600px; border-radius:20px;
+    background:#2A6B6E; color:#fff; overflow:hidden;
+    box-shadow:0 40px 90px rgba(20,30,28,0.28);
+  }
+  .corner{ position:absolute; bottom:-160px; left:-160px; width:420px; height:420px; border-radius:50%; background:#255f61; opacity:0.6; }
+  .corner2{ position:absolute; top:-140px; right:-140px; width:340px; height:340px; border-radius:50%; background:#357477; opacity:0.5; }
+  .content{ position:relative; z-index:2; padding:80px 64px; }
+  .kicker{ font-size:15px; letter-spacing:0.22em; text-transform:uppercase; color:#BFE3E0; font-weight:700; margin-bottom:18px; }
+  h1.headline{ font-size:42px; margin:0 0 54px; color:#fff !important; line-height:1.15; }
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:30px 40px; }
+  .item{ display:flex; align-items:flex-start; font-size:18px; line-height:1.4; }
+  .item .mark{ color:#BFE3E0; font-weight:800; margin-right:14px; font-size:19px; }
+  .brandmark{ z-index:3; }
 </style></head>
 <body><div class="canvas">
-  <div class="corner"></div><div class="corner2"></div>
   <div class="brandmark">AleonPress</div>
-  <div class="content">
-    <div class="kicker">What You'll Receive</div>
-    <h1 class="headline">Everything In One Download</h1>
-    <div class="grid">
-      <div class="item"><span class="mark">✓</span>Resume Template (2 Design Styles)</div>
-      <div class="item"><span class="mark">✓</span>Matching Cover Letter</div>
-      <div class="item"><span class="mark">✓</span>Matching References Page</div>
-      <div class="item"><span class="mark">✓</span>US Letter &amp; A4 Sizes</div>
-      <div class="item"><span class="mark">✓</span>Editable Word (.doc) &amp; Print-Ready PDF</div>
-      <div class="item"><span class="mark">✓</span>Step-by-Step Instructions</div>
-      <div class="item"><span class="mark">✓</span>4 Free Bonus Career Guides</div>
-      <div class="item"><span class="mark">✓</span>Job Application Tracker (Excel)</div>
+  <div class="panel">
+    <div class="corner"></div><div class="corner2"></div>
+    <div class="content">
+      <div class="kicker">What You'll Receive</div>
+      <h1 class="headline">Everything In One Download</h1>
+      <div class="grid">
+        <div class="item"><span class="mark">✓</span>Resume Template (2 Design Styles)</div>
+        <div class="item"><span class="mark">✓</span>Matching Cover Letter</div>
+        <div class="item"><span class="mark">✓</span>Matching References Page</div>
+        <div class="item"><span class="mark">✓</span>US Letter &amp; A4 Sizes</div>
+        <div class="item"><span class="mark">✓</span>Editable Word &amp; Print-Ready PDF</div>
+        <div class="item"><span class="mark">✓</span>Step-by-Step Instructions</div>
+        <div class="item"><span class="mark">✓</span>4 Free Bonus Career Guides</div>
+        <div class="item"><span class="mark">✓</span>Job Application Tracker (Excel)</div>
+      </div>
     </div>
   </div>
 </div></body></html>

@@ -5,9 +5,12 @@ body{
   width:1600px; height:1200px; overflow:hidden;
   font-family:'Source Sans 3', sans-serif;
   color:#1c1c1c;
-  background:#FAF9F5;
+  background:#FAF9F5 url('../assets/desk-bg.jpeg') no-repeat center right / cover;
   position:relative;
 }
+/* Desk photo keeps its props (cup, cherries, keyboard, pen) inside roughly
+   x:950-1600 of this 1600x1200 canvas — keep content left of that line. */
+.safe-zone{ position:absolute; left:70px; width:850px; }
 .canvas{ width:1600px; height:1200px; position:relative; overflow:hidden; }
 .brandmark{
   position:absolute; top:44px; left:52px; font-family:'EB Garamond',serif;
