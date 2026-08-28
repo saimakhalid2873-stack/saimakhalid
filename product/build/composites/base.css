@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  width:1600px; height:1200px; overflow:hidden;
+  font-family:'Source Sans 3', sans-serif;
+  color:#1c1c1c;
+  background:#FAF9F5;
+  position:relative;
+}
+.canvas{ width:1600px; height:1200px; position:relative; overflow:hidden; }
+.brandmark{
+  position:absolute; top:44px; left:52px; font-family:'EB Garamond',serif;
+  font-size:20px; letter-spacing:0.28em; color:#2A6B6E; font-weight:600; text-transform:uppercase;
+}
+.headline{ font-family:'EB Garamond',serif; font-weight:600; color:#1c1c1c; }
+.shadow-card{ box-shadow:0 30px 70px rgba(20,30,28,0.16), 0 6px 18px rgba(20,30,28,0.08); }
+.check{ color:#2A6B6E; font-weight:700; margin-right:10px; }
