@@ -11,17 +11,14 @@
     "summary": {
       "tagline": "",
       "bullets": [
-        "Write a 2–3 sentence summary of your qualifications: years of healthcare experience, your clinical or administrative specialty, and a top achievement.",
-        "Mention your licenses/credentials, the scope of care, staff, or budget you've overseen, and the qualities that make you the right fit for this role."
+        "Write a 2–3 sentence summary: years of healthcare experience, your clinical or administrative specialty, a top achievement, and the qualities that make you the right fit."
       ],
       "skills": [
         "Patient / Client Care Coordination",
         "EMR / EHR Documentation",
         "Regulatory & HIPAA Compliance",
         "Cross-Functional Team Leadership",
-        "Budget & Resource Management",
         "Quality Improvement Initiatives",
-        "Staff Training & Development",
         "Critical Thinking & Problem Solving"
       ]
     },
@@ -32,11 +29,9 @@
         "location": "City, Province, Country",
         "start": "YEAR",
         "end": "YEAR",
-        "summary": "A brief job and organization description. Highlight your achievements at the company instead of simply listing your tasks. Show real examples.",
         "bullets": [
-          "Give numbers and statistical examples if you can of how you have impacted the organization while you were working there.",
-          "An example of this would be — improved patient/client satisfaction scores by 40% by introducing new coordination techniques.",
-          "Always highlight your most quantifiable accomplishments first. Do this before listing your responsibilities and your working tasks."
+          "Give a number: e.g., improved patient/client satisfaction scores by 40% by introducing new coordination techniques.",
+          "Lead with your most quantifiable accomplishments before listing responsibilities and tasks."
         ]
       },
       {
@@ -45,23 +40,8 @@
         "location": "City, Province, Country",
         "start": "YEAR",
         "end": "YEAR",
-        "summary": "A brief job and organization description. Highlight your achievements at the company instead of simply listing your tasks. Show real examples.",
         "bullets": [
-          "Give numbers and statistical examples if you can of how you have impacted the organization while you were working there.",
-          "An example of this would be — reduced patient/client wait times by 25% by redesigning intake and scheduling workflow.",
-          "Always highlight your most quantifiable accomplishments first. Do this before listing your responsibilities and your working tasks."
-        ]
-      },
-      {
-        "title": "// PROFESSIONAL TITLE",
-        "company": "Company / Facility Name",
-        "location": "City, Province, Country",
-        "start": "YEAR",
-        "end": "YEAR",
-        "summary": "A brief job and organization description. Highlight your achievements at the company instead of simply listing your tasks. Show real examples.",
-        "bullets": [
-          "Give numbers and statistical examples if you can of how you have impacted the organization while you were working there.",
-          "An example of this would be — improvement of monthly/yearly outcomes or efficiency increased by 40% by introducing new protocols.",
+          "Give a number: e.g., reduced patient/client wait times by 25% by redesigning intake and scheduling workflow.",
           "Tailor every resume to every job listing and organization."
         ]
       }
@@ -85,23 +65,14 @@
     "certifications": [],
     "projects": [],
     "awards": [
-      "// AWARD NAME — Organization / School Name, City, Province, Country, YEAR",
       "// AWARD NAME — Organization / School Name, City, Province, Country, YEAR"
     ],
     "customSections": [
       {
         "label": "Licenses & Certifications",
         "bullets": [
-          "License / Credential Type: [e.g. RN, MD, DO, PA, LPN, NP, LCSW]  |  Licensing State/Body  |  License Expiration: 01/01/2020  |  License Number: 1212 12 12 12",
-          "Certification Name  |  Issuing Organization  |  Licensing State/Body  |  License Expiration: 01/01/2020  |  License Number: 1212 12 12 12",
-          "Certification Name  |  Issuing Organization  |  City, State, Country  |  Date: 02/02/2020"
-        ]
-      },
-      {
-        "label": "Professional Development",
-        "bullets": [
-          "// EXTRA COURSE, CLASS, WORKSHOP, CONVENTION, STUDIES — School/Organization Name, City, Province, Country, YEAR",
-          "Write a summary about your extra classes, workshops, courses, etc. State how it applies to the objectives of the position in which you are applying."
+          "License Type [e.g. RN, MD, PA, LPN, NP]  |  State/Body  |  Expiration: 01/01/2020  |  License #: 1212 12 12 12",
+          "Certification Name  |  Issuing Org  |  Expiration: 01/01/2020"
         ]
       }
     ]

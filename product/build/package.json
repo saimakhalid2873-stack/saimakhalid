@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "docx": "^9.7.1",
     "jspdf": "^2.5.1"
   }
 }
